@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0f0f0f;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.sign {
+  color: #ffffff;
+  right: 0;
+  bottom: 0;
+}
