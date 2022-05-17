@@ -6,3 +6,22 @@
   align-items: center;
   justify-content: space-between;
 }
+
+input:invalid {
+  border-color: red;
+  animation: shake 300ms;
+}
+
+@keyframes shake {
+  25% {
+    transform: translateX(4px);
+  }
+
+  50% {
+    transform: translateX(-4px);
+  }
+
+  75% {
+    transform: translateX(4px);
+  }
+}
