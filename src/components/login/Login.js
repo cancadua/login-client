@@ -2,10 +2,7 @@ import "./login.css";
 
 export const Login = () => {
   return (
-    <form
-      style={{ color: "#111" }}
-      onSubmit={() => console.log("LOGIN TO BE IMPLEMENTED")}
-    >
+    <form onSubmit={() => alert("To be implemented...")}>
       <div className="input-container">
         <label>Username </label>
         <input type="text" name="uname" required />
