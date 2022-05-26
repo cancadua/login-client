@@ -3,7 +3,7 @@ import "./navbar.css";
 const Navbar = ({ setLoginStatus, setRegisterStatus }) => {
   return (
     <div className={"navbar"}>
-      <span className={"navbar-home"}> Adrian Galus </span>
+      <span className={"navbar-home"}> HOME </span>
       <div>
         <button
           className={"navbar-home"}
