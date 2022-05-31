@@ -6,6 +6,7 @@ Frontend part of authentication application. Client will communicate with Java b
 Implemented:
 - login and register modals
 - html validation with regex
+
 Future features:
 - authentication
 - authorization
